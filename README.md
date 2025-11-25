@@ -12,7 +12,7 @@ Error: Unable to resolve module @test-eas/utils from
 found within the project or in these directories:
 [expo-cli] ../../node_modules
 
-Now `eas update` command works and publishes an update, but metro is not able to resolve entry file for the app:
+Now `eas update` command works and publishes an update, but metro is not able to resolve entry file for the app in Debug and Release builds:
 <img width="395" height="841" alt="image" src="https://github.com/user-attachments/assets/b99c8edf-f801-434b-83bb-296204ae6c50" />
 
 To run the project:
