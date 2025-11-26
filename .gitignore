@@ -116,3 +116,7 @@ yarn-error.log
 test-output
 
 vite.config.*.timestamp*
+
+.expo
+android/
+ios/

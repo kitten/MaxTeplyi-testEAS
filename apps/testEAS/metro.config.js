@@ -21,20 +21,11 @@ const customConfig = {
     sourceExts: uniq([
       ...(expoConfig.resolver?.sourceExts ?? []),
       'svg',
-      'cjs',
-      'mjs',
     ]),
   },
   transformer: {
     ...expoConfig.transformer,
-    babelTransformerPath: require.resolve('react-native-svg-transformer'),
-    assetPlugins: ['expo-asset/tools/hashAssetFiles'],
-    getTransformOptions: async () => ({
-      transform: {
-        experimentalImportSupport: false,
-        inlineRequires: true,
-      },
-    }),
+    babelTransformerPath: require.resolve('react-native-svg-transformer/expo'),
   },
 };
 

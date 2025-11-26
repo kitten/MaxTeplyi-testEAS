@@ -4,23 +4,22 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@react-native/metro-config": "*",
-    "react": "*",
-    "react-native": "*",
-    "react-native-svg": "*",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-svg": "^15.12.1",
     "@testing-library/react-native": "*",
     "react-test-renderer": "*",
-    "metro-config": "*",
     "@nx/eslint-plugin": "*",
-    "react-native-svg-transformer": "*",
-    "@types/react-dom": "*",
-    "vite": "*",
-    "@vitejs/plugin-react": "*",
-    "@nx/vite": "*",
-    "esbuild": "*",
-    "expo": "*",
-    "expo-updates": "*",
-    "jest": "*"
+    "react-native-svg-transformer": "1.5.1",
+    "expo": "~54.0.10",
+    "expo-updates": "~29.0.12"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^30.0.2",
+    "@types/react-dom": "^19.0.6"
+  },
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  }
 }
