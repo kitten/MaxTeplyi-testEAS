@@ -15,9 +15,5 @@
   },
   "ios": {
     "bundleIdentifier": "org.reactjs.native.example.TestEAS"
-  },
-  "experiments": {
-    "tsconfigPaths": true,
-    "autolinkingModuleResolution": true
   }
 }
